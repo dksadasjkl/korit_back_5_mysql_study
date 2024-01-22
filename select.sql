@@ -114,7 +114,7 @@ from
 	student_tb
 group by 
 	name,
-	address
+	addressstudent_tb
 having
     count(*) >= 1
 order by #오름차순 -> 기본값
